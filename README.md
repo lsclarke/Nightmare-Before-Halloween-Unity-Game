@@ -17,16 +17,15 @@
 
 <h2 align="center" dir="auto"> Feature </h2>
 <h3 align="left" dir="auto"> Gameplay Programming </h3>
-<p dir="auto"><strong><code>Player movement</code></strong> is designed to allow the player to move <strong><code>horizontally on the x-axis</code></strong>. Utilizing the <strong><code>rigidbody2D component</code></strong> within the unity engine I crafted a player movement that can be molded to be more specialized depending on what character you are. The wall jumping game mechanic is a feature only accessible to the Ninja Frog <strong><code>Jump Master</code></strong>.</p>
+<p dir="auto">Developed player interaction system using using c# and utilizing raycast and custom coded collision trigger detection to identify an interactable object. This provided the project with a flexible system for detecting gameObjects with scripts that contain the IInteractable interface.</p>
 <br>
-<p dir="auto"><strong><code>Wall Jumping </code></strong>gives the player the ability to <strong><code>push off of walls</code></strong>. Players will also reduce their fall speed by clinging to walls while in free fall. This feature was designed to help with precise jumping and mobility, in order to help the players to reach incredible heights.</p>
+<p dir="auto">Designed weapons logic for 3 different fire arms within the project. Each weapon has the weapon script attached to it. This provides the weapons with the capability to have custom fire rate and the option to implement unique bullet gameObjects of choice.</p>
 <br>
-<p dir="auto">Traps designs were developed by implementing and utilizing the <strong><code>spline component</code></strong> into the designs of my traps. This provided the project with multiple saw trap variations that made platforming more exciting and challenging for players. The splines act as a <strong><code>path</code></strong> for the saws to follow and in doing so allows for a more optimized way of moving objects within a 2D space without the use of waypoints.</p>
+<p dir="auto">Created a buying system that allows players to purchase ammo, health, and power ups. This provides the project with a unique system that gives incentive to use the points accumulated to buy items that help to survive.</p>
 <br>
-<p dir="auto">The sprite animations provided the project with great visual impact that allows players to see the different states the player is in. By designing sprite animation logic the player is more visually appealing and can be easily identified as to when the player is in different health conditions, or on the move, or stationary.</p>
+<p dir="auto">Designed an enemy wave system that spawns in a specific amount of enemy ai characters. This provides the project with a unique spawning system logic that increases in the quantity of enemies each round. The enemy ai logic updates every round, with each round completed the ai’s speed increases.</p>
 <br>
 
 <h3 align="left" dir="auto"> UI Programming </h3>
-<p dir="auto">Developing an in-game user interface that provided the project with a visual indicator of the amount of points accumulated and collectables collected. 
-  By design the player ui logic the game keeps real time updates on the points collected and fruits and orbs collected throughout the level for the players to see at all times.</p>
+<p dir="auto">Designed the player user-interface to display all in game stats and player conditions such as health, ammo, stamina, and points. This helped to give the project a reliable way to keep track of data using ui behavior logic I developed.</p>
 <br>
