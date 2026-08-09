@@ -29,3 +29,6 @@
 <h3 align="left" dir="auto"> UI Programming </h3>
 <p dir="auto">Designed the player user-interface to display all in game stats and player conditions such as health, ammo, stamina, and points. This helped to give the project a reliable way to keep track of data using ui behavior logic I developed.</p>
 <br>
+
+<h2 align="center" dir="auto"> Contact Information 📞</h2> 
+<p align="center" dir="auto">Contact me at <a href="mailto:lenardclarke22@gmail.com">lenardclarke22@gmail.com</a> or <a href="https://sites.google.com/view/lenardclarke/game-programming/nightmare-before-halloween">My Portfolio</a> for any questions/inquiries.</p>
